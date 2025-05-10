@@ -11,6 +11,18 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "EaWWUE66huE-BlPwl",
+        });
+      })();
+    </script>
+
   </head>
   <body>
     <div class="container">
@@ -227,30 +239,27 @@
         </div>
 
         <!-- Project 2 -->
+
         <div class="projects-card">
           <div class="projects-info fadeInRight">
-            <h1><span class="gradient">ProfileCard</span> Website</h1>
+            <h1><span class="gradient">Portfolio</span> Website</h1>
 
             <p>
-              Ryde Foundation Student Profiles showcases the achievements and
-              skills of Batch 2023 & 2024 students. It highlights their
-              technical expertise, project work, and career aspirations, showing
-              how they're preparing for successful IT careers. With a focus on
-              web development and IT education, this repository offers a look at
-              their growth and goals.
+              This is a personal portfolio website developed to showcase my web
+              development skills, projects, and experiences. The site features a
+              clean and responsive design built using HTML, CSS, and vanilla
+              JavaScript. It includes dedicated sections for About Me, Projects,
+              Skills, and Contact, offering a complete overview of my
+              capabilities as a front-end developer.
             </p>
 
-            <a href="https://www.rydefoundation.in/profileCard24.html"
+            <a href="./index.html"
               ><button><i class="bx bx-link-external"></i> Demo</button></a
             >
           </div>
 
           <div class="projects-prev-box autoBlur">
-            <video
-              muted
-              id="projectVideo2"
-              src="videos/ProfileCard-video.mp4"
-            ></video>
+            <video muted id="projectVideo2" src="videos/portfolio.mp4"></video>
 
             <div class="hover-sign"></div>
           </div>
@@ -286,7 +295,7 @@
           </div>
         </div>
 
-        <a href=""
+        <a href="projects.html"
           ><button class="show-more">
             More Projects <i class="bx bx-right-arrow-alt"></i></button
         ></a>
@@ -378,7 +387,7 @@
             </a>
           </div>
 
-          <button>
+          <button onclick="sendMail()">
             <i class="bx bx-send"></i>
             <span class="inner-text">Send Message</span>
           </button>
@@ -390,11 +399,11 @@
             platform, or bring a unique project to file. i'm here to help.
           </p>
           <p>Full Name</p>
-          <input type="text" placeholder="Your Full Name" />
+          <input id="name" required type="text" placeholder="Your Full Name" />
           <p>Email Address</p>
-          <input type="text" placeholder="Your Email" />
+          <input id="email" required type="text" placeholder="Your Email" />
           <p>Your Message</p>
-          <input
+          <input id="message" required
             class="input-message"
             type="text"
             placeholder="Share your thoughts..."
@@ -405,7 +414,7 @@
       <footer>
         <h1>
           Copyright <span style="color: #727fde"> ©</span>
-          <span class="year"></span> Lian, Made with ❤️ by Linganand
+          <span class="year"></span>, Made with ❤️ by Linganand
         </h1>
       </footer>
     </div>

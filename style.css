@@ -442,7 +442,7 @@ header .desktop-ul a {
 
 .project-title {
   font-size: 32px;
-  margin-bottom: 56px;
+  margin-bottom: 40px;
 }
 
 .projects-card {
@@ -485,7 +485,7 @@ header .desktop-ul a {
 
 .projects-card .projects-info:nth-child(odd) {
   padding-left: 5%;
-  margin-left: 5%;
+  /* margin-left: 5%; */
 }
 
 .projects-info {
@@ -1213,8 +1213,12 @@ footer h1 {
     animation: none;
   }
 
+  .fadeInRight {
+    animation: none;
+  }
+
   .hero-info {
-    top: 80px;
+    top: 100px;
     bottom: 5%;
   }
 
@@ -1338,13 +1342,13 @@ footer h1 {
 
   .skills-section {
     margin-bottom: 750px;
-    margin-top: -50%;
+    margin-top: -45%;
   }
 
   .slider {
     bottom: 0;
     top: 310%;
-    width: 70vw;
+    width: 80vw;
     left: 10%;
   }
 
@@ -1430,7 +1434,7 @@ footer h1 {
   }
 
   .scroll-down-box {
-    bottom: 15%;
+    bottom: 10%;
   }
 
   .info-section {
@@ -1453,12 +1457,12 @@ footer h1 {
 
   .cards h1 {
     bottom: auto;
-    top: 53%;
+    top: 60%;
   }
 
   .cards p {
     bottom: auto;
-    top: 65%;
+    top: 75%;
     max-width: 350px;
   }
 
@@ -1527,7 +1531,7 @@ footer h1 {
 
   .slider {
     top: 260%;
-    left: 25%;
+    left: 22%;
   }
 
   .contact-section {
@@ -1587,8 +1591,12 @@ footer h1 {
   }
 
   .cards:nth-child(2) img {
-    margin-top: -15%;
+    margin-top: 0%;
     height: 50%;
+  }
+
+  .contact-section h1 {
+    top: -5%;
   }
 
   .social-box {

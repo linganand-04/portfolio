@@ -54,10 +54,27 @@ child.forEach(y=>{
 })
 
 
-const parent = document.querySelector(".container"); // or by ID: #parent
-const childCount = parent.children.length;
-console.log("Number of children:", childCount);
+function sendMail(){
 
+  let name = document.querySelector("#name");
+  let email = document.querySelector("#email");
+  let message = document.querySelector("#message");
 
+  let pars = {
+    name : document.querySelector("#name").value,
+    email : document.querySelector("#email").value,
+    message : document.querySelector("#message").value
+  }
 
-console.log(parent.children[7]);
+  if(pars.name === "" || pars.email === "" || pars.message === "" ){
+    alert("Kindly complete all required fields before submitting.")
+    return 
+  }
+
+  name.value = "";
+  email.value = "";
+  message.value= "";
+
+  emailjs.send("service_47hwasr","template_uit23sk",pars,"EaWWUE66huE-BlPwl").then(alert("Temporarily Unavailable.. Plsz contact alternate ways"))
+
+}
