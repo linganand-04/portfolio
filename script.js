@@ -56,14 +56,14 @@ child.forEach(y=>{
 
 function sendMail(){
 
-  let name = document.querySelector("#name");
-  let email = document.querySelector("#email");
-  let message = document.querySelector("#message");
+  let name = document.querySelector("#name").value;
+  let email = document.querySelector("#email").value;
+  let message = document.querySelector("#message").value;
 
   let pars = {
-    name : document.querySelector("#name").value,
-    email : document.querySelector("#email").value,
-    message : document.querySelector("#message").value
+    name,
+    email,
+    message 
   }
 
   if(pars.name === "" || pars.email === "" || pars.message === "" ){
@@ -72,9 +72,10 @@ function sendMail(){
   }
 
   name.value = "";
-  email.value = "";
-  message.value= "";
+  email = "";
+  message= "";
 
-  emailjs.send("service_47hwasr","template_uit23sk",pars,"EaWWUE66huE-BlPwl").then(alert("Temporarily Unavailable.. Plsz contact alternate ways"))
+  console.log(name);
 
+  // emailjs.send("service_47hwasr","template_uit23sk",pars,"EaWWUE66huE-BlPwl").then(alert("✅ Email sent successfully! We'll get back to you shortly."))
 }

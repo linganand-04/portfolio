@@ -1483,14 +1483,15 @@ footer h1 {
 
   .cards:nth-child(3) h1 {
     top: 60%;
+    width: 90%;
   }
 
   .cards:nth-child(3) p {
-    top: 70%;
+    top: 73%;
   }
 
   .cards:nth-child(3) button {
-    bottom: 5%;
+    bottom: 4%;
   }
 
   .projects-prev-box video {
