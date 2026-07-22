@@ -42,7 +42,7 @@ export const projects = [
     tech: ["HTML5", "CSS3", "JavaScript"],
     image: "/projects/thirukkural.jpg",
     demoUrl: "https://rydefoundation.in/kural/kural.html",
-    githubUrl: "https://github.com/linganand-04",
+    githubUrl: "https://github.com/linganand-04/Thirukkural",
     featured: true,
   },
   {
@@ -59,7 +59,7 @@ export const projects = [
     tech: ["HTML5", "CSS3", "JavaScript"],
     image: "/projects/profilecard.jpg",
     demoUrl: "https://www.rydefoundation.in/profileCard24.html",
-    githubUrl: "https://github.com/linganand-04",
+    githubUrl: "https://github.com/linganand-04/Profilecard",
     featured: false,
   },
 ];

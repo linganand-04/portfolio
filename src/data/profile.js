@@ -15,7 +15,7 @@ export const profile = {
   ],
   careerObjective:
     "To grow as a full-stack engineer on a product team where I can ship polished user-facing features, learn from experienced developers, and gradually take on more ownership over architecture and product decisions.",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: `${import.meta.env.VITE_BASE_URL}/Linganand_Resume.pdf`,
   email: "linganandb2004@gmail.com",
   phone: "87789 69908",
   whatsapp: "https://wa.me/918778969908",

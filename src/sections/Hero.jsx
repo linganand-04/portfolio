@@ -51,7 +51,7 @@ export default function Hero() {
           </motion.p>
 
           <motion.div variants={fadeUp} className="mt-6 flex flex-wrap items-center gap-4">
-            <MagneticButton href={profile.resumeUrl} download variant="primary">
+            <MagneticButton href={profile.resumeUrl} download="Linganand_Resume.pdf" variant="primary">
               <Download size={16} /> Download Resume
             </MagneticButton>
             <MagneticButton

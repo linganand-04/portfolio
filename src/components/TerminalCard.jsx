@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const CODE_LINES = [
   { text: "const developer = {", color: "text-white" },
   { text: "  name: 'Linganand',", color: "text-accent" },
-  { text: "  role: 'Frontend Engineer',", color: "text-accent" },
+  { text: "  role: 'Software Developer',", color: "text-accent" },
   { text: "  stack: ['React JS', 'Node Js', 'SQL'],", color: "text-accent" },
   { text: "  loves: 'clean UI + Reusable Components',", color: "text-accent" },
   { text: "  available: true,", color: "text-primary" },
