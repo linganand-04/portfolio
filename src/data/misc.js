@@ -1,0 +1,52 @@
+// Placeholder certifications — replace with your actual certificates, issuers and years.
+export const certifications = [
+  {
+    id: "cert-1",
+    title: "Add Your Certification Title",
+    issuer: "Issuing Organization",
+    year: "2024",
+  },
+  {
+    id: "cert-2",
+    title: "Add Your Certification Title",
+    issuer: "Issuing Organization",
+    year: "2024",
+  },
+  {
+    id: "cert-3",
+    title: "Add Your Certification Title",
+    issuer: "Issuing Organization",
+    year: "2025",
+  },
+];
+
+export const services = [
+  {
+    id: "svc-1",
+    title: "Frontend Development",
+    description:
+      "Building performant, component-driven interfaces with React and modern JavaScript best practices.",
+    icon: "Code2",
+  },
+  {
+    id: "svc-2",
+    title: "Responsive Websites",
+    description:
+      "Pixel-considered layouts that adapt cleanly across mobile, tablet and desktop breakpoints.",
+    icon: "Smartphone",
+  },
+  {
+    id: "svc-3",
+    title: "React Applications",
+    description:
+      "Single-page applications with clean state management, reusable components and fast load times.",
+    icon: "Layers",
+  },
+  {
+    id: "svc-4",
+    title: "UI Development",
+    description:
+      "Translating designs into accessible, animated, production-ready interfaces.",
+    icon: "Palette",
+  },
+];

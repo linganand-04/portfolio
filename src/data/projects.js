@@ -1,0 +1,65 @@
+export const projects = [
+  {
+    id: "forever",
+    title: "Forever",
+    subtitle: "Full-Stack E-Commerce Platform",
+    description:
+      "A modern full-stack e-commerce application that delivers a seamless online shopping experience with secure authentication, product browsing, shopping cart, order management, and an admin dashboard for managing products and orders.",
+    features: [
+      "User authentication with secure login and registration",
+      "Product browsing with search, filters, and categories",
+      "Shopping cart and wishlist functionality",
+      "Secure online payments with Stripe integration",
+      "Order placement and order history tracking",
+      "Admin dashboard for product, order, and inventory management",
+      "Responsive UI optimized for desktop, tablet, and mobile devices",
+    ],
+    tech: [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Cloudinary",
+    ],
+    image: "/projects/forever.jpg",
+    demoUrl: "https://forever-lian.vercel.app/",
+    githubUrl: "https://github.com/linganand-04/Forever_Full_Stack",
+    featured: true,
+  },
+  {
+    id: "thirukkural",
+    title: "Thirukkural Digital Edition",
+    subtitle: "Ryde Foundation",
+    description:
+      "A digital presentation of the Thirukkural featuring all 1,330 Tamil kurals with English translations and explanations — bringing ancient Tamil wisdom on values, governance and love to a modern, bilingual interface.",
+    features: [
+      "All 1,330 kurals with Tamil + English translation",
+      "Clean bilingual reading experience",
+      "Organized by values, governance and love chapters",
+    ],
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    image: "/projects/thirukkural.jpg",
+    demoUrl: "https://rydefoundation.in/kural/kural.html",
+    githubUrl: "https://github.com/linganand-04",
+    featured: true,
+  },
+  {
+    id: "profilecard",
+    title: "Ryde Foundation ProfileCard",
+    subtitle: "Student showcase platform",
+    description:
+      "A showcase of Ryde Foundation student profiles highlighting technical expertise, project work and career aspirations for Batch 2023 & 2024 — a look at their growth as they prepare for IT careers.",
+    features: [
+      "Dynamic profile cards for two graduating batches",
+      "Highlights of skills, projects and goals per student",
+      "Responsive grid-based showcase layout",
+    ],
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    image: "/projects/profilecard.jpg",
+    demoUrl: "https://www.rydefoundation.in/profileCard24.html",
+    githubUrl: "https://github.com/linganand-04",
+    featured: false,
+  },
+];
