@@ -41,7 +41,7 @@ export const projects = [
     ],
     tech: ["HTML5", "CSS3", "JavaScript"],
     image: "/projects/thirukkural.jpg",
-    demoUrl: "https://rydefoundation.in/kural/kural.html",
+    demoUrl: "https://rydefoundation.in/kural/index.html",
     githubUrl: "https://github.com/linganand-04/Thirukkural",
     featured: true,
   },
