@@ -5,7 +5,7 @@ export const experience = [
     id: "exp-1",
     role: "Frontend Development Intern",
     org: "Ryde Foundation",
-    period: "2025 Jan — 2025 Dec",
+    period: "2025 Jan — 2025 Jun",
     location: "Remote",
     description:
       "Built and shipped bilingual, content-heavy web experiences including a full digital edition of the Thirukkural and a student profile showcase used across two graduating batches.",
