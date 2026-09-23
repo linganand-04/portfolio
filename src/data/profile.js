@@ -4,7 +4,14 @@
 export const profile = {
   name: "Linganand",
   initials: "L",
-  roles: ["Software Developer", "Frontend Developer", "MCA Student"],
+  roles: [
+    "Frontend Developer",
+    "React Developer",
+    "Web Developer",
+    "Software Developer",
+    "Full Stack Developer",
+    "MERN Developer",
+  ],
   location: "Chennai, Tamil Nadu, India",
   tagline: "Building fast, accessible, beautifully-crafted web experiences.",
   shortBio:

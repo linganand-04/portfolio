@@ -19,6 +19,16 @@ import {
   FolderGit2,
   Smartphone,
   Layers,
+  BotMessageSquare,
+  Brain,
+  Sparkles,
+  Atom,
+  ChartNoAxesCombined,
+  Ad,
+  Paintbrush,
+  FileText,
+  FileSpreadsheet,
+  SearchCheck,
 } from "lucide-react";
 
 // Explicit map (rather than `import *`) keeps the icon set tree-shakeable,
@@ -44,6 +54,16 @@ const ICON_MAP = {
   FolderGit2,
   Smartphone,
   Layers,
+  BotMessageSquare,
+  Brain,
+  Sparkles,
+  Atom,
+  ChartNoAxesCombined,
+  Ad,
+  Paintbrush,
+  FileText,
+  FileSpreadsheet,
+  SearchCheck,
 };
 
 /**

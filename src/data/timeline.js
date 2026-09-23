@@ -6,27 +6,41 @@ export const experience = [
     role: "Frontend Development Intern",
     org: "Ryde Foundation",
     period: "2025 Jan — 2025 Jun",
-    location: "Remote",
+    location: "Hybrid",
     description:
-      "Built and shipped bilingual, content-heavy web experiences including a full digital edition of the Thirukkural and a student profile showcase used across two graduating batches.",
+      "Developed bilingual, content-focused web platforms, including a digital literature archive and a student showcase system.",
     highlights: [
-      "Developed the Thirukkural digital platform covering 1,330 verses with English translations",
-      "Built the Ryde Foundation student ProfileCard showcase for Batch 2023 & 2024",
-      "Collaborated on clean, bilingual UI accessible to a broad audience",
+      "Built a responsive digital platform hosting 1,330 Thirukkural verses with English translations.",
+      "Developed the ProfileCard showcase highlighting students from the 2023 and 2024 cohorts.",
+      "Designed clean, accessible user interfaces to support diverse audiences.",
     ],
   },
   {
     id: "exp-2",
-    role: "Frontend Developer",
+    role: "Junior Frontend Developer",
     org: "Trizoul Technologies",
     period: "2025 Dec — 2026 July",
-    location: "Onsite",
+    location: "On-site",
     description:
-      "Contributed to the development of CheckoutGenie, building responsive web interfaces and Chrome Extension features with React and modern frontend technologies.",
+      "Engineered responsive web interfaces and Chrome Extension features for the CheckoutGenie platform.",
     highlights: [
-      "Built reusable React components with Tailwind CSS for the web dashboard",
-      "Integrated REST APIs and authentication",
-      "Enhanced Chrome Extension functionality and user experience",
+      "Built reusable React and Tailwind CSS components for the core web dashboard.",
+      "Integrated secure user authentication flows and REST APIs.",
+      "Optimized Chrome Extension performance and user experience.",
+    ],
+  },
+  {
+    id: "exp-3",
+    role: "Web Developer",
+    org: "Ryde Consulting",
+    period: "2026 July — Present",
+    location: "On-site",
+    description:
+      "Led the migration, stabilization, and SEO optimization of web infrastructure to enhance overall performance and uptime.",
+    highlights: [
+      "Migrated the main site and subdomains, From BigRocks to Hostinger, drastically improving server response times.",
+      "Diagnosed and resolved legacy bugs and critical crashes across rydefoundation.in",
+      "Revamped UI on key subdomains and implemented technical SEO to boost organic traffic.",
     ],
   },
 ];

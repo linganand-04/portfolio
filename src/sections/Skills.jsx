@@ -6,8 +6,10 @@ import SkillBar from "@/components/SkillBar";
 import { staggerContainer, scaleIn } from "@/animations/variants";
 
 export default function Skills() {
+  console.log(skillCategories);
   const [activeCategory, setActiveCategory] = useState(skillCategories[0].id);
-  const category = skillCategories.find((c) => c.id === activeCategory);
+  console.log(activeCategory);
+  const category = skillCategories?.find((c) => c.id === activeCategory);
 
   return (
     <section id="skills" className="relative px-5 py-24 sm:px-8 lg:px-12">
@@ -24,8 +26,11 @@ export default function Skills() {
             <button
               key={cat.id}
               onClick={() => setActiveCategory(cat.id)}
-              className={`relative rounded-full px-5 py-2.5 text-sm font-medium transition-colors ${activeCategory === cat.id ? "text-white" : "text-text-muted hover:text-text"
-                }`}
+              className={`relative rounded-full px-5 py-2.5 text-sm font-medium transition-colors ${
+                activeCategory === cat.id
+                  ? "text-white"
+                  : "text-text-muted hover:text-text"
+              }`}
             >
               {activeCategory === cat.id && (
                 <motion.span

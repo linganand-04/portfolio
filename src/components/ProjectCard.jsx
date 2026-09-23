@@ -1,4 +1,9 @@
-import { motion, useMotionTemplate, useMotionValue, useSpring } from "framer-motion";
+import {
+  motion,
+  useMotionTemplate,
+  useMotionValue,
+  useSpring,
+} from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import { GithubIcon } from "@/components/icons/BrandIcons";
 import { useState } from "react";
@@ -49,7 +54,10 @@ export default function ProjectCard({ project, index = 0 }) {
         className="pointer-events-none absolute inset-0 z-10 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
       />
 
-      <div className={`relative aspect-16/10 w-full overflow-hidden bg-linear-to-br ${gradient}`}>
+      <div
+        className={`relative w-full overflow-hidden bg-linear-to-br ${gradient} ${imgError && `aspect-16/10`}`}
+        // aspect-16/10
+      >
         {!imgError ? (
           <img
             src={project.image}
@@ -63,18 +71,24 @@ export default function ProjectCard({ project, index = 0 }) {
             <span className="font-display text-4xl font-bold text-white/90">
               {project.title.charAt(0)}
             </span>
-            <span className="font-mono text-xs text-white/60">{project.subtitle}</span>
+            <span className="font-mono text-xs text-white/60">
+              {project.subtitle}
+            </span>
           </div>
         )}
         <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/0 to-black/0" />
       </div>
 
       <div className="relative z-20 flex flex-1 flex-col p-6">
-        <h3 className="font-display text-xl font-semibold text-text mb-1">{project.title}</h3>
+        <h3 className="font-display text-xl font-semibold text-text mb-1">
+          {project.title}
+        </h3>
         <p className="mb-3 text-xs font-medium uppercase tracking-wide text-accent">
           {project.subtitle}
         </p>
-        <p className="mb-4 text-sm leading-relaxed text-text-muted">{project.description}</p>
+        <p className="mb-4 text-sm leading-relaxed text-text-muted">
+          {project.description}
+        </p>
 
         <ul className="mb-4 flex flex-col gap-1.5">
           {project.features.slice(0, 3).map((f) => (
