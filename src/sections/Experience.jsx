@@ -22,12 +22,21 @@ export default function Experience() {
                 <Briefcase size={13} />
                 {item.period}
               </div>
-              <h3 className="font-display text-lg font-semibold text-text">{item.role}</h3>
-              <p className="mb-1 text-sm font-medium text-secondary">{item.org}</p>
+              <h3 className="font-display text-lg font-semibold text-text">
+                {item.role}
+              </h3>
+              <p className="mb-1 text-sm font-medium text-secondary">
+                {item.org}
+              </p>
               <p className="mb-3 flex items-center gap-1.5 text-xs text-text-faint">
                 <MapPin size={12} /> {item.location}
               </p>
-              <p className="mb-4 text-sm leading-relaxed text-text-muted">{item.description}</p>
+              <p className="mb-1 text-sm font-medium">
+                {item.title}
+              </p>
+              <p className="mb-4 text-sm leading-relaxed text-text-muted">
+                {item.description}
+              </p>
               <ul className="flex flex-col gap-1.5">
                 {item.highlights.map((h) => (
                   <li key={h} className="flex gap-2 text-sm text-text-muted">

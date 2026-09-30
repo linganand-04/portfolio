@@ -1,12 +1,15 @@
 // Update dates/titles to match your real history.
 
+import { title } from "framer-motion/client";
+
 export const experience = [
   {
     id: "exp-1",
     role: "Frontend Development Intern",
-    org: "Ryde Foundation",
+    org: "Ryde Consulting",
     period: "2025 Jan — 2025 Jun",
     location: "Hybrid",
+    title: "Thirukkural Site & Website Enhancement",
     description:
       "Developed bilingual, content-focused web platforms, including a digital literature archive and a student showcase system.",
     highlights: [
@@ -21,6 +24,7 @@ export const experience = [
     org: "Trizoul Technologies",
     period: "2025 Dec — 2026 July",
     location: "On-site",
+    title: "React, UI Engineering & Browser Extensions",
     description:
       "Engineered responsive web interfaces and Chrome Extension features for the CheckoutGenie platform.",
     highlights: [
@@ -37,10 +41,14 @@ export const experience = [
     location: "On-site",
     description:
       "Led the migration, stabilization, and SEO optimization of web infrastructure to enhance overall performance and uptime.",
+    title: "SEO, Website Migration & Performance",
     highlights: [
-      "Migrated the main site and subdomains, From BigRocks to Hostinger, drastically improving server response times.",
-      "Diagnosed and resolved legacy bugs and critical crashes across rydefoundation.in",
+      "Migrated the main site and subdomains, Service Providers from BigRocks to Hostinger, drastically improving server response times.",
+      "Diagnosed and resolved legacy bugs and critical crashes across rydefoundation.in site",
       "Revamped UI on key subdomains and implemented technical SEO to boost organic traffic.",
+      "Search engine optimization and AI Citation",
+      "Develop customize project specific prompt for content development",
+      "Built JSON-LD Scheme for 125 Blogs in rydetravel.com",
     ],
   },
 ];

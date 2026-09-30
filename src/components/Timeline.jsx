@@ -3,7 +3,7 @@ import { viewportOnce } from "@/animations/variants";
 
 export default function Timeline({ items, renderItem }) {
   return (
-    <div className="relative mx-auto max-w-3xl">
+    <div className="relative mx-auto max-w-5xl">
       {/* vertical line */}
       <div className="absolute left-3.75 top-2 bottom-2 w-px bg-linear-to-b from-primary via-secondary to-accent/40 sm:left-1/2 sm:-translate-x-1/2" />
 

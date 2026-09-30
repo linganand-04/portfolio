@@ -29,6 +29,7 @@ import {
   FileText,
   FileSpreadsheet,
   SearchCheck,
+  KeyRound,
 } from "lucide-react";
 
 // Explicit map (rather than `import *`) keeps the icon set tree-shakeable,
@@ -64,6 +65,7 @@ const ICON_MAP = {
   FileText,
   FileSpreadsheet,
   SearchCheck,
+  KeyRound
 };
 
 /**

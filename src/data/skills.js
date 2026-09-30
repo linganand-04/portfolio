@@ -21,6 +21,7 @@ export const skillCategories = [
       { name: "Node.js", level: 60, icon: "Server" },
       { name: "Express.js", level: 55, icon: "Webhook" },
       { name: "REST APIs", level: 65, icon: "Cable" },
+      { name: "JWT Authentication", level: 65, icon: "KeyRound" },
     ],
   },
   {
